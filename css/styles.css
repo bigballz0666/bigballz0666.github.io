@@ -1,0 +1,292 @@
+body {
+    background-color: #fafafa;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+span {
+    font-weight: 600;
+}
+
+h3 {
+    color: #8e8e8e;
+}
+
+h2 {
+    font-weight: 600;
+    color: #385185;
+}
+
+h4 {
+    text-align: center;
+    color: #262625;
+    font-size: 15px
+}
+
+.imgs {
+    text-align:center;
+}
+
+.box {
+    text-align: center;
+    border-style: solid;
+    border-width: 1.3px;
+    border-radius: 2px;
+    border-color: #d6d6d6;
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    height: 420px;
+    width: 450px;
+}
+
+#error {
+    color:#17c400;
+    opacity: 0;
+}
+
+.box2 {
+    text-align: center;
+    border-style: solid;
+    border-width: 1.3px;
+    border-radius: 2px;
+    border-color: #d6d6d6;
+    margin:auto;
+    background-color: #ffffff;
+    height: 100px;
+    width: 450px;
+}
+
+#logo {
+    margin-top: 20px;
+    margin-left: -10px;
+    background-color: none;
+}
+
+input[type=text] {
+    color: #000000;
+    border-radius: 4px;
+    border-color: #dbdbdb;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #fafafa;
+    width: 300px;
+    height: 25px;
+    padding-right: 0px;
+    padding-left: 9px;
+    padding-bottom: 7px;
+    padding-top: 8px;
+    margin-bottom: 5px;
+}
+
+input[type=text]:focus {
+    outline: none;
+    color: #000000;
+    border-radius: 4px;
+    border-color: #dbdbdb;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #fafafa;
+    width: 300px;
+    height: 25px;
+    padding-right: 0px;
+    padding-left: 9px;
+    padding-bottom: 7px;
+    padding-top: 8px;
+    margin-bottom: 5px;
+}
+
+input[type=password] {
+    color: #000000;
+    border-radius: 4px;
+    border-color: #dbdbdb;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #fafafa;
+    width: 300px;
+    height: 25px;
+    padding-right: 0px;
+    padding-left: 9px;
+    padding-bottom: 7px;
+    padding-top: 8px;
+}
+
+input[type=password] {
+    outline: none;
+    color: #000000;
+    border-radius: 4px;
+    border-color: #dbdbdb;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #fafafa;
+    width: 300px;
+    height: 25px;
+    padding-right: 0px;
+    padding-left: 9px;
+    padding-bottom: 7px;
+    padding-top: 8px;
+}
+
+input[type=submit] {
+    font-weight: 600;
+    color: #ffffff;
+    border-style: none;
+    border-radius: 4px;
+    background-color: #0095f6;
+    width: 310px;
+    height: 40px;
+}
+/*
+body {
+    background-color: #fafafa;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+span {
+    font-weight: 600;
+}
+
+h3 {
+    color: #8e8e8e;
+}
+
+h2 {
+    font-weight: 600;
+    color: #385185;
+}
+
+h4 {
+    text-align: center;
+    color: #262625;
+    font-size: 15px
+}
+
+.imgs {
+    text-align:center;
+}
+
+.box {
+    text-align: center;
+    border-style: solid;
+    border-width: 1.3px;
+    border-radius: 2px;
+    border-color: #d6d6d6;
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    height: 420px;
+    width: 450px;
+}
+
+#error {
+    color:#17c400;
+    opacity: 0;
+}
+
+.box2 {
+    text-align: center;
+    border-style: solid;
+    border-width: 1.3px;
+    border-radius: 2px;
+    border-color: #d6d6d6;
+    margin:auto;
+    background-color: #ffffff;
+    height: 100px;
+    width: 450px;
+}
+
+#logo {
+    margin-top: 20px;
+    margin-left: -10px;
+    background-color: none;
+}
+
+input[type=text] {
+    color: #000000;
+    border-radius: 4px;
+    border-color: #dbdbdb;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #fafafa;
+    width: 300px;
+    height: 25px;
+    padding-right: 0px;
+    padding-left: 9px;
+    padding-bottom: 7px;
+    padding-top: 8px;
+    margin-bottom: 5px;
+}
+
+input[type=text]:focus {
+    outline: none;
+    color: #000000;
+    border-radius: 4px;
+    border-color: #dbdbdb;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #fafafa;
+    width: 300px;
+    height: 25px;
+    padding-right: 0px;
+    padding-left: 9px;
+    padding-bottom: 7px;
+    padding-top: 8px;
+    margin-bottom: 5px;
+}
+
+input[type=password] {
+    color: #000000;
+    border-radius: 4px;
+    border-color: #dbdbdb;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #fafafa;
+    width: 300px;
+    height: 25px;
+    padding-right: 0px;
+    padding-left: 9px;
+    padding-bottom: 7px;
+    padding-top: 8px;
+}
+
+input[type=password] {
+    outline: none;
+    color: #000000;
+    border-radius: 4px;
+    border-color: #dbdbdb;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #fafafa;
+    width: 300px;
+    height: 25px;
+    padding-right: 0px;
+    padding-left: 9px;
+    padding-bottom: 7px;
+    padding-top: 8px;
+}
+
+input[type=submit] {
+    font-weight: 600;
+    color: #ffffff;
+    border-style: none;
+    border-radius: 4px;
+    background-color: #0095f6;
+    width: 310px;
+    height: 40px;
+}
+*/
